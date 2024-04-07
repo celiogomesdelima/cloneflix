@@ -1,7 +1,3 @@
-Claro, aqui está um exemplo de README para o seu projeto no GitHub:
-
----
-
 # Streaming de Filmes
 
 Este é um projeto Django para um site de streaming de filmes.
