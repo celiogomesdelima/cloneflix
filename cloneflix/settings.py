@@ -24,14 +24,14 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 TOKEN_CSRF = os.getenv('TOKEN_CSRF')
 if TOKEN_CSRF:
     SECRET_KEY = TOKEN_CSRF
-    CSRF_TRUSTED_ORIGINS =['https://cloneflix-production.up.railway.app/'] 
+    CSRF_TRUSTED_ORIGINS =['https://cloneflix-production.up.railway.app'] 
 else:
     SECRET_KEY = 'django-insecure-&$aic-i_*&l)8%qgy)+(j5^bq7)el_p#$gdq1&*s4+-4$d6=&1'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["https://cloneflix-production.up.railway.app/", "localhost", "127.0.0.1"]
+ALLOWED_HOSTS = ["cloneflix-production.up.railway.app", "localhost", "127.0.0.1"]
 
 
 # Application definition
