@@ -29,7 +29,7 @@ else:
     SECRET_KEY = 'django-insecure-&$aic-i_*&l)8%qgy)+(j5^bq7)el_p#$gdq1&*s4+-4$d6=&1'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ["cloneflix-production.up.railway.app", "localhost", "127.0.0.1"]
 
