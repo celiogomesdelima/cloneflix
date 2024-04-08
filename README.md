@@ -19,15 +19,8 @@ Este é um projeto Django para um site de streaming de filmes.
 - **JavaScript**: Para interações dinâmicas nas páginas.
 - **SQLite**: Banco de dados leve para armazenamento de dados.
 
-## Contribuição
-
-Contribuições são bem-vindas! Se você quiser contribuir com este projeto, siga estas etapas:
-
-1. Faça um fork do projeto
-2. Crie uma branch para sua nova funcionalidade: `git checkout -b nova-funcionalidade`
-3. Faça suas alterações e commit: `git commit -am 'Adiciona nova funcionalidade'`
-4. Envie para o repositório remoto: `git push origin nova-funcionalidade`
-5. Abra um pull request
+## Disponível online
+Acesse: https://cloneflix-production.up.railway.app/login/
 
 ## Licença
 
